@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <script src="/socket.io/socket.io.js" ></script>
+    <script src="./javascripts/client.js" ></script>
+    <script src="./javascripts/exist.js" ></script>
+
+  </head>
+  <body>
+    <button onClick="startRecording()">start</button>
+    <button onClick="stopRecording()">stop</button>
+
+    <a href="./wav/test.wav"  target="_blank">wavefile</a><br>
+
+    <p>startを押すと録音をスタートします。</p>
+    <p>stopで録音を終了し、結果がメッセージで表示されます</p>
+
+    <p>リロードするとこれまでの録音が消去されます</p>
+
+
+  </body>
+</html>
